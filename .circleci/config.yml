@@ -6,15 +6,8 @@
 #    branches:
 #      only:
 #        - master
-version: 2.1
-orbs:
-  node: circleci/node@3.0.0
-workflows:
-  node-tests:
-    jobs:
-      - node/test
 
-version: 2
+version: 2.1
 jobs:
   deploy-website:
     docker:
