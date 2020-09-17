@@ -38,10 +38,10 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'welcome', label: 'Docs'},
+  //  {doc: 'doc4', label: 'API'},
+  //  {page: 'help', label: 'Help'},
+  //  {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
@@ -54,8 +54,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#99539c',
-    secondaryColor: '#6b3a6d',
+    primaryColor: '#5CE1E6',
+    secondaryColor: '#126C70',
   },
 
   /* Custom fonts for website */
@@ -73,8 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
-
+  copyright: `Copyright © ${new Date().getFullYear()} PiipPay and PiipSell, owned and operated by MNM Capital, Inc`,
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
     theme: 'default',
