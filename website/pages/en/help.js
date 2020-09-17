@@ -22,18 +22,18 @@ function Help(props) {
   const supportLinks = [
     {
       content: `Learn more using the [documentation on this site.](${docUrl(
-        'doc1.html',
+        'welcome.html',
       )})`,
       title: 'Browse Docs',
     },
-    {
-      content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
-    },
-    {
-      content: "Find out what's new with this project",
-      title: 'Stay up to date',
-    },
+    // {
+    //   content: 'Ask questions about the documentation and project',
+    //   title: 'Join the community',
+    // },
+    // {
+    //   content: "Find out what's new with this project",
+    //   title: 'Stay up to date',
+    // },
   ];
 
   return (
